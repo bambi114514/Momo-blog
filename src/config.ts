@@ -7,7 +7,7 @@ import type { FriendLink } from "./types/friend"
 import type { I18nConfig } from "./types/i18n"
 
 export const siteConfig: SiteConfig = {
-    title: "Momo", // Title of the site, used in the tab in the browser and in SEO
+    title: "Bambi", // Title of the site, used in the tab in the browser and in SEO
     subTitle: "Blog", // Subtitle of the site
     rootSiteUrl: "https://momo.motues.top", // Root URL of the site, used for generating absolute URLs for SEO and social sharing
 
@@ -38,7 +38,7 @@ export const siteConfig: SiteConfig = {
 
 export const profileConfig: ProfileConfig = {
     avatar: "assets/Motues.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-    name: "Motues", // Used in the footer of the blog
+    name: "Bambi", // Used in the footer of the blog
     description: "Life is colorful!", // Used in SEO
     indexPage: "https://www.motues.top", // The homepage, used in footer and SEO
     startYear: 2024, // The year the site was created, used in the footer
@@ -57,13 +57,13 @@ export const i18nConfig: I18nConfig = {
         "zh-cn": {
             Cover: {
                 title: {
-                    home: "欢迎来到 Momo 的博客",
+                    home: "欢迎来到 雷小班Bambi 的博客",
                     archive: "文章归档",
                     about: "关于",
                     friends: "友链",
                 },
                 subTitle: {
-                    home: "生活多彩！",
+                    home: "记录高中和网络生活！",
                     archive: "共 {count} 篇文章", // {count} will be replaced with the total number of articles
                     about: "一个极简的Blog模板",
                     friends: "有趣的灵魂",
@@ -73,7 +73,7 @@ export const i18nConfig: I18nConfig = {
         "en": {
             Cover: {
                 title: {
-                    home: "Welcome to Momo's Blog",
+                    home: "Welcome to Bambi's Blog",
                     archive: "Archive",
                     about: "About",
                     friends: "Friends",
